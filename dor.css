@@ -1,0 +1,224 @@
+.for{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    gap: 35px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+ }
+
+.for .one{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+
+.for .one button, .for .two button{ 
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin: 10px 0;
+    background-color: brown;
+    width: 100px;
+}
+
+
+.for .two{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+
+
+
+@media (min-width:1000px) and (max-width:1107px){ 
+    .for .one button, .for .two button{
+        background-color: aqua;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+     }
+     .for{ 
+        background-color: yellow;
+     }
+}
+
+
+@media (min-width:800px) and (max-width:1000px){ 
+    .for .one button, .for .two button{
+        background-color: rgb(189, 21, 255);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+     }
+     .for{ 
+        background-color: teal;
+     }
+}
+
+
+@media (min-width:600px) and (max-width:800px){ 
+    .for .one button, .for .two button{
+        background-color: rgb(189, 21, 255);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        width: 50px;
+     }
+     .for{ 
+        background-color: rgb(133, 7, 7);
+        display: flex;
+        gap: 40px;
+       justify-content: center;
+
+     }
+     .for .one{ 
+        gap: 20px;
+     }
+
+     .for .two{ 
+        gap: 20px;
+     }
+    
+}
+
+@media (min-width:400px) and (max-width:600px){ 
+    .for .one button, .for .two button{
+        background-color: rgb(107, 255, 21);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        width: 30px;
+     }
+     .for{ 
+        background-color: rgb(82, 205, 253);
+        display: flex;
+        gap: 20px;
+       justify-content: center;
+
+     }
+     .for .one{ 
+        gap: 10px;
+     }
+
+     .for .two{ 
+        gap: 10px;
+     }
+     .for .one .auto{ 
+        width: auto;
+     }
+        
+    
+    
+}
+@media (min-width:300px) and (max-width:400px){ 
+    .for .one button, .for .two button{
+        background-color: orange;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        width: auto;
+     }
+     .for{ 
+        background-color: rgb(60, 214, 29);
+        display: flex;
+        gap: 10px;
+       justify-content: center;
+
+     }
+     .for .one{ 
+        gap: 5px;
+     }
+
+     .for .two{ 
+        gap: 5px;
+     }
+     .for .one .auto{ 
+        width: auto;
+     }
+        
+    
+    
+}
+@media (min-width:200px) and (max-width:300px){ 
+    .for .one button, .for .two button{
+        background-color: rgb(30, 75, 199);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        width: auto;
+     }
+     .for{ 
+        background-color: rgb(60, 214, 29);
+        display: flex;
+        gap: 5px;
+       justify-content: center;
+
+     }
+     .for .one{ 
+        gap: 2px;
+     }
+
+     .for .two{ 
+        gap: 2px;
+     }
+     .for .one .auto{ 
+        width: auto;
+     }
+        
+    
+    
+}
+
+
+
+
+@media (min-width:150px) and (max-width:200px){ 
+    .for .one button, .for .two button{
+        background-color: rgb(247, 243, 40);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        width: auto;
+     }
+     .for{ 
+        background-color: rgb(78, 29, 214);
+        display: flex;
+        gap: 2px;
+       justify-content: center;
+
+     }
+     .for .one{ 
+        gap: 12px;
+        transform: translateX(46px);
+        
+     }
+
+     .for .two{ 
+        gap: 1px;
+     }
+     .for .one .auto{ 
+        width: auto;
+     }
+     .for .two{
+        visibility: hidden;
+      }
+        
+    
+    
+}
+
+/* { } */
